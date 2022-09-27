@@ -7,6 +7,8 @@
   background-color: #24252A;
 }
 
+/* header */
+
 .logo img{
   width: 70px;
   border-radius: 50px
@@ -67,9 +69,7 @@ button:hover{
 }
 
 
-
-
-
+/* Footer */
 
 footer{
   position: absolute;
