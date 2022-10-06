@@ -349,9 +349,14 @@ img:nth-child(5) {
   }
 }
 
+/* Contact */
 
+.barcode-img{
+  place-items: center;
+  text-align: center;
+}
 
 .barcode{
-  width: 55%;
+  width: 300px;
   margin-top: 115px;
 }
