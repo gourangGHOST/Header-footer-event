@@ -286,3 +286,65 @@ img:nth-child(5) {
     margin-top: -80px;
   }
 }
+
+/*about*/
+
+.my-services {
+  background-color: #24252A;
+  padding-top: 100px;
+  /* background-image: url("./img/My-work.jpg"); */
+  color: #e7e2db;
+  text-align: center;
+}
+
+.section__title--services {
+  color: #0088a9;
+  position: relative;
+  font-size: 4rem;
+}
+
+.about-heading{
+  font-size: 1.75rem;
+  line-height: 50px;
+}
+
+.section__title--services::after {
+  content: '';
+  display: block;
+  width: 4em;
+  height: 1px;
+  margin: 0.5em auto 1em;
+  background: #edf0f1;
+  opacity: 0.5;
+}
+
+.services {
+  line-height: 34px;
+  margin-top: 5em;
+  margin-bottom: 8em;
+}
+
+.btn{
+  display: inline-block;
+  text-align: center;
+  margin-top: 5em;
+  
+}
+
+.service {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+  .services {
+    /* display: flex; */
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .service+.service {
+    margin-left: 4em;
+  }
+}
